@@ -254,6 +254,8 @@ for _,v in next, DeadChar:GetChildren() do
 end
 
 if ANIMATIONHERE then ANIMATIONHERE.Parent = CloneChar end
+sethiddenproperty(game.Players.LocalPlayer, "MaximumSimulationRadius", 999999999999999999999999)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 999999999999999999999999)
 --- DO NOT PUT NORMAL ANIMATION
 local data = {}
 
