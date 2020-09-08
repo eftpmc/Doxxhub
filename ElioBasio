@@ -1,5 +1,7 @@
-sethiddenproperty(game.Players.LocalPlayer, "MaximumSimulationRadius", 999999999999999999999999)
-sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 999999999999999999999999)
+game["Run Service"].RenderStepped:connect(function()
+	settings().Physics.AllowSleep = false
+	setsimulationradius(math.huge*math.huge,math.huge*math.huge)
+end))
 -----------//Elio Blasio\\-----------
 --[[Movelist
 E = Equip/Unequip, click to shoot, hold to spray
