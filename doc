@@ -86,9 +86,10 @@ Lots of different scripts, ranging from animation scripts to hat scripts
 
 **Animations Tab**
 
-Press initiate first (This loads reanimate)
+Press reanimate first (This loads reanimate)
 Wait a few seconds
 Should be all good for dancing (works with titan)
+put id in id player and then press play id
 
 **Utility Tab**
 
